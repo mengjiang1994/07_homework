@@ -5,6 +5,7 @@ namespace _Homework
     {
 		public Student student;
 		public Course course;
+
 		public CourseToStudent(Course course, Student student)
 		{
 			this.course = course;

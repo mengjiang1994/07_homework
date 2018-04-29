@@ -1,8 +1,11 @@
 ﻿<Properties StartupConfiguration="{8D0CD611-8A87-4823-86DA-686E66985B82}|Default">
   <MonoDevelop.Ide.Workbench ActiveDocument="07_Homework/Program.cs">
     <Files>
-      <File FileName="07_Homework/School.cs" Line="91" Column="57" />
-      <File FileName="07_Homework/Program.cs" Line="19" Column="1" />
+      <File FileName="07_Homework/School.cs" Line="187" Column="40" />
+      <File FileName="07_Homework/Program.cs" Line="72" Column="51" />
+      <File FileName="07_Homework/CourseToStudent.cs" Line="7" Column="24" />
+      <File FileName="07_Homework/Student.cs" Line="13" Column="4" />
+      <File FileName="07_Homework/Course.cs" Line="8" Column="3" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />

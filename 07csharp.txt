@@ -1,0 +1,54 @@
+// 每次model的文件夹都是自己新建的
+// 然后在这下面新建两个empty class
+// 然后再开始写代码
+
+// 每个class都有三个东西
+// Fields, Properties, Methods
+public calss MyClass
+{
+	//This is a field. It is private to your class and stores the acutal data.
+	//说白了就他妈是private variable
+	private string _myField;
+
+	//This is a property. When accessd it uses the underlying field.
+	//基本上就是get set，其实也是function的一个变种
+	public string MyProperty
+	{
+		get
+		{
+			return _myField;
+		}
+		set
+		{
+			_myField = value;
+		}
+	}
+
+	//This is the method of each class, actually are the functions
+	//其实就是functions
+	public void MyMethod(){
+		Console.WriteLine();
+	}
+
+}
+
+//先写course和student这两个object
+//然后再写CourseToStudent
+//然后再写School
+//最后再写Program(Main函数吧)
+//虽然有人说可以不写构造器但是坦率的讲我觉得还是有必要写（要不然我怎么定义？）
+
+
+//------
+//何时使用static, private, public?
+//public 可以给所有人用
+//protected 只给同一个类里面的用
+//private 只能在本方法中用
+//static的魔法效果是：
+//被static关键字修饰的方法或者变量不需要依赖于对象来进行访问
+//只要类被加载了，就可以通过类名去进行访问。
+//被static的可以直接访问
+//而没有被static1的变量一般都需要通过在class中写方法才可以被访问
+//------
+
+

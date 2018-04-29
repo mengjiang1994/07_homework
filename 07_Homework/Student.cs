@@ -12,7 +12,7 @@ namespace _Homework
 			this.creditLimited = creditLimited;
 		}
 
-        //Below is added on course
+        //以下是在上课期间写上去的
         public static string GetTitle(Student student){
             return "MR" + student.name;
             //Console.WriteLine("MR" + student.name);

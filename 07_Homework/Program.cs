@@ -8,7 +8,7 @@ namespace _Homework
         static School school;
         public static void Main(string[] args)
         {
-            school = new School();
+            school = new School();//建一个新学校（也就是三条list）
             seed();
 
             //Main menu
@@ -16,14 +16,14 @@ namespace _Homework
 				Console.WriteLine("Choose option");
 				Console.WriteLine("1. For course managemnet");
 				Console.WriteLine("2. For student managemnet");
-                int option = Int32.Parse(Console.ReadLine());
-                Console.Clear();
+                int option = Int32.Parse(Console.ReadLine());//输入的操作
+                Console.Clear();//清屏
                 switch(option){
                     case 1:
-                        courseOption();
+                        courseOption();//如果用户输入的是1
                         break;
 					case 2:
-						studentOption();
+						studentOption();//如果用户输入的是2
                         break;
                     default:
                         break;
@@ -69,6 +69,7 @@ namespace _Homework
 					Console.Clear();
 					school.printStudent();
 					Console.WriteLine("Which course do you want to remove?");
+                    //所以说输入的是course的id而不是course的名字
 					int studentSelectedIdx = Int32.Parse(Console.ReadLine()) - 1;
                     school.removeStudent(studentSelectedIdx);
 					Console.Clear();
